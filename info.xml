@@ -20,7 +20,7 @@
   <compatibility>
     <ver>4.6, 4.7</ver>
   </compatibility>
-  <comments>Prototype status</comments>
+  <comments>Prototype status - no stable state planned</comments>
   <civix>
     <namespace>CRM/Populate</namespace>
   </civix>
