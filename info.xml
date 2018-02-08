@@ -2,7 +2,8 @@
 <extension key="sfe.bic.populate" type="module">
   <file>populate</file>
   <name>sfe.bic.populate</name>
-  <description>This extension is meant only for temporary usage when migrating from Ssepa to CiviSEPA.<br>
+  <description>This extension is meant only for temporary usage when migrating from Ssepa to CiviSEPA.
+
                The Extension fills the BIS to the mandates. Although this is not required, CiviSEPA expects to have the BIC in the data. This extension populates the empty fields using the resources of the little bic extension belonging to CiviSEPA, and does not require the usage of an external (web-) servive for computing the bics, which would be a disclosure of the mandates personal information</description>
   <license>AGPL-3.0</license>
   <maintainer>
