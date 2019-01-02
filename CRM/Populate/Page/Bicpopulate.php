@@ -21,7 +21,7 @@ foreach ($emptybic["values"] as $emptybics) {
     $nextiban = civicrm_api3('SepaMandate', 'getsingle', array(
       'sequential' => 1,
       'return' => "id,iban",
-      'id' => $emptybics,
+      'id' => $emptybics["id"],
     ));
     // Sends variables to Smarty
     $this->assign('currentID', $nextiban['id'] );
